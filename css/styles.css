@@ -90,3 +90,25 @@ h3 {
 p {
   font-size: 18px;
 }
+
+@media (max-width: 575px) {
+  .desription {
+    text-align: center;
+  }
+  .desription h2 {
+    text-align: center;
+    font-size: 28px;
+  }
+  .main-imgs {
+    display: none;
+  }
+  .primary-link {
+    display: block;
+    margin: 0 20px;
+    text-align: center;
+  }
+  .email-link {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+}
